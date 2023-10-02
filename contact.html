@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Fill the form below</h2>
+        <form id="myForm" onsubmit="return formValidation()">
+            <input type="text" name="name" id='name'placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            <textarea name="message" id='message' rows="'4" placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
